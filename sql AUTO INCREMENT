@@ -1,0 +1,8 @@
+## AUTO INCREMENT : it fills the column default and it inccrement by one vale for entire column.
+                    it applies only for primary key columns.
+SYNTAX : create table persons (
+    -> id int not null auto_increment,
+    -> lastname varchar (255) not null,
+    -> firstname varchar(255),
+    -> age int,
+    -> primary key (id));
